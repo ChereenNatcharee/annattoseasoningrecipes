@@ -1,4 +1,4 @@
-
 User-agent: *
-Disallow: 
-Sitemap: https://chereennatcharee.github.io/annattoseasoningrecipes/
+Allow: /
+
+Sitemap: https://chereennatcharee.github.io/annattoseasoningrecipes/sitemap.xml

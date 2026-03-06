@@ -202,15 +202,18 @@ header {
   	width: 100%;
   	/* height: auto; */
 	height: calc(100vh - 16.5rem);
+	object-fit: cover;
+	object-position: center;
+	
 }
 
 .header-content {
-	height: 46.296vh; /* Roughly 500px of 1080px high screen */
+	height: 50vh; /* Roughly 500px of 1080px high screen */
  	position: relative;
   	display: flex;
   	flex-direction: column;
   	align-items: center;
-  	justify-content: center;
+  	justify-content: center
   }
 
 main, .bg-container {
@@ -254,7 +257,7 @@ article img {
 }
 
 footer {
-	padding: 40px 0;
+	padding: 40px 0 ;
 	margin-top: 24px;
 	background-color: #4d3728;
 }
@@ -283,6 +286,19 @@ footer a:link, a:visited {
 footer a:hover, a:active {
 	color: #f8f2f2;
 	text-decoration: underline;
+}
+
+.sub-footer p {
+	color: #fff;
+	font-size: 0.9rem;
+	padding: 40px 0;
+	border-top: 1px solid rgba(255,255,255,0.1);
+	text-align: center;
+	margin-bottom: 0;
+}
+.sub-footer a {
+    color: #ff6600; 
+    text-decoration: underline;
 }
 
 /* -- Code for the Cookie Compliance popover window -- */
@@ -370,3 +386,98 @@ h3 {
 		margin-left: 10%;
 	}
 }
+
+.ingredients-wrap ul {
+    list-style-type: none; 
+    padding-left: 0;
+    margin: 20px 0;
+}
+
+.ingredients-wrap li {
+    background-color: #fff; 
+    margin-bottom: 10px;
+    padding: 12px 15px;
+    border-left: 5px solid #FF8C00;
+    border-radius: 4px;
+    color: #312d2d;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+
+.ingredients-wrap li strong {
+    color: #d10e28; 
+}
+
+/* --- Recipes.html --- */
+
+.luxury-bright {
+    background-color: #fdf8f5;
+}
+
+
+.luxury-bright .header-bg-image {
+    opacity: 0.6; 
+}
+
+.luxury-bright header h1 {
+    color: #962635; 
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.8);
+}
+
+.luxury-bright header h2 {
+    color: #4a4a4a; 
+    font-family: "Playwrite AU TAS", cursive;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.luxury-bright main {
+    background-color: #ffffff;
+    padding: 60px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.05);
+    border: 1px solid #f1e5df;
+    margin-top: 30px; 
+    position: relative;
+    z-index: 5;
+    border-radius: 2px;
+}
+.luxury-bright article h2 {
+	font-size: clamp(18px, 4vw, 45px);
+}
+.luxury-bright h2, .luxury-bright h3 {
+    color: #962635;
+    text-align: center;
+    border-bottom: 2px solid #d4af37; 
+    padding-bottom: 15px;
+    margin-top: 50px;
+}
+
+
+.luxury-bright .ingredients-wrap ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.luxury-bright .ingredients-wrap li {
+    background-color: #fff9f6;
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: left;
+    transition: 0.4s;
+    font-size: 1.1rem;
+}
+
+.luxury-bright .ingredients-wrap li:hover {
+    background-color: #fdf2eb;
+    letter-spacing: 1px;
+}
+
+.luxury-bright .ingredients-wrap li strong {
+    color: #d10e28; 
+}
+

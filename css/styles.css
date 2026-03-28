@@ -216,15 +216,17 @@ header {
   	justify-content: center
 }
   /* Style for my leaderboad ads */
-.leaderboard {
-	display: flex;
-	justify-content: center;
-	margin-top: 32px;
+.leaderboard, .square-ad-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;            
+    margin: 20px 0;         
 }
-.square-ad-container {
-	display: flex; 
-	justify-content: center; 
-	margin: 40px 0;
+
+.leaderboard img, .square-ad-container img {
+    max-width: 100%;
+    height: auto;
 }
 
 main, .bg-container {

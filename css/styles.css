@@ -221,6 +221,11 @@ header {
 	justify-content: center;
 	margin-top: 32px;
 }
+.square-ad-container {
+	display: flex; 
+	justify-content: center; 
+	margin: 40px 0;
+}
 
 main, .bg-container {
 	width: 71%;

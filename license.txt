@@ -24,6 +24,8 @@ annattos-tree| Image by <a href="https://pixabay.com/users/pmarcos6821-21167041/
 pixabay License - Free for commercial use
 No attribution required
 
+Thai-Kaffir-Lime-Leaf | Photo by <a href="https://unsplash.com/@camaranegra?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Camara Negra</a> on <a href="https://unsplash.com/photos/a-bowl-of-limes-NxPohrCqVcc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
 
 
 <-- recipes -->
@@ -35,5 +37,11 @@ CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons
 red-achito-tree | <a href="https://commons.wikimedia.org/wiki/File:Achiote_pj.JPG">Primejyothi</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, 
 via Wikimedia Commons
 attribution: Primejyothi, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons
+
+chilis-paste | Photo by <a href="https://unsplash.com/@varanga22?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kalindu Waranga</a> on <a href="https://unsplash.com/photos/red-chili-paste-in-a-white-bowl-gie59CNUoqY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+      
+Thai-Kaffir-Lime-Leaf | Photo by <a href="https://unsplash.com/@camaranegra?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Camara Negra</a> on <a href="https://unsplash.com/photos/a-bowl-of-limes-NxPohrCqVcc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+      
+      
 
 CC0 license and use it however and wherever you like.

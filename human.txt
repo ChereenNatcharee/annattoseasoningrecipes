@@ -1,0 +1,41 @@
+human.txt (for https://chereennatcharee.github.io/annattoseasoningrecipes/)
+                            
+/* TEAM */
+
+                            
+Your title: Your name.
+
+                            
+Role: Developer, Content creator, Designer
+Email: :annattoseasoningrecipes@gmail.com
+
+                        
+						
+
+							
+/* THANKS */
+
+/* TECHNOLOGY*/
+
+							
+Name: name or url
+
+						
+                 
+                        [...]
+                        
+
+                            
+/* SITE */
+
+                            
+Last update: YYYY/MM/DD 
+
+                            
+Standards: HTML5, CSS3,..
+
+                            
+Components: Modernizr, jQuery, etc.
+
+                            
+Software: Software used for the development

@@ -494,3 +494,82 @@ h3 {
     color: #d10e28; 
 }
 
+/* --- Content Refresh Y  --- */
+.refresh-content-wrapper {
+    max-width: 960px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.section-title {
+    color: #962635; 
+    border-bottom: 2px solid #962635;
+    padding-bottom: 15px;
+}
+
+.review-body p {
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+.medical-quote {
+    background-color: #962635;
+    border-left: 5px solid #d4af37;
+    padding: 20px;
+    font-style: italic;
+    margin: 30px 0;
+}
+
+.source-link a {
+    color: #962635;
+    text-decoration: underline;
+}
+
+/* Gallery Styling */
+.centered-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.gallery-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.gallery-card {
+    flex: 1;
+    min-width: 250px;
+}
+
+.gallery-card img {
+    width: 100%;
+    max-width: 280px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.gallery-card p {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* Picnic Spot Styling */
+.picnic-feature {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.google-citation {
+    font-size: 0.85em;
+    color: #666;
+    margin-top: 20px;
+}
+
+.content-divider {
+    margin: 60px 0;
+    opacity: 0.1;
+}

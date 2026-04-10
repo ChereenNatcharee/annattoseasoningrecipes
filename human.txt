@@ -1,41 +1,35 @@
 human.txt (for https://chereennatcharee.github.io/annattoseasoningrecipes/)
                             
-/* TEAM */
+/* TEAM  */
 
-                            
-Your title: Your name.
-
-                            
+Developer: Chereen Natchree 
 Role: Developer, Content creator, Designer
-Email: :annattoseasoningrecipes@gmail.com
+Email: annattoseasoningrecipes@gmail.com
 
-                        
-						
 
-							
-/* THANKS */
+/*Thanks */
 
-/* TECHNOLOGY*/
+Template Designer : Chereen Natcharee
+Reciprocal Link Partner: Arjun Aranas
 
-							
-Name: name or url
 
-						
-                 
-                        [...]
-                        
+/* TECHNOLOGY */
 
-                            
-/* SITE */
+Built With: Visual Studio, XML-sitemaps, Office 365, ChatGPt, Gemini, Grammarly, Ninja Keywords Analysis, Iubenda Privacy tool, HTML, CSS, Javascript, Jason
 
-                            
-Last update: YYYY/MM/DD 
+Used With: Github, Google Analytics, Search Consol, Mailchimp, Squoosh, Pixabay, Unsplash, Canva
 
-                            
-Standards: HTML5, CSS3,..
 
-                            
-Components: Modernizr, jQuery, etc.
+/* FEATURES */
+Mobil first approach, responsive site.
+Using HTML, CSS, Javascript, XML, Jason
+Javascript navigation
 
-                            
-Software: Software used for the development
+/* COPYRIGHT */
+
+Copyright (2026) Annatto Seasoning Recipes | A site about preserving — All rights reserved.
+
+
+/* COMMUNICATION */
+
+Contact: annattoseasoningrecipes@gmail.com

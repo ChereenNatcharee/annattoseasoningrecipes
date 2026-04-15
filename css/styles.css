@@ -270,9 +270,10 @@ article img {
 }
 
 footer {
-	padding: 40px 0 ;
+	padding: 40px 0;
 	margin-top: 24px;
-	background-color: #4d3728;
+	background-color:#4d3728;
+	color: white;
 }
 
 footer ol {
@@ -280,6 +281,7 @@ footer ol {
 	text-align: center;
 	list-style-type: none;
 	display: flex;
+	flex-direction: column;  /* Added to fix the footer in the mobile view - look to line 345 for the media querie part */
 	align-items: center;
 	justify-content: space-between;
 	padding: 0;
@@ -300,6 +302,56 @@ footer a:hover, a:active {
 	color: #f8f2f2;
 	text-decoration: underline;
 }
+/* Code for 404 page */
+/* Select an image with a 16:9 aspect ratio
+Target a size of 1024px and less than 85kb
+either dark bg or light bg but never both. */
+.four-o-four {
+    background: url(../img/four-o-four.avif) no-repeat center center fixed; 
+    background-size: cover;
+}
+
+.four-o-four main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.four-o-four .content-box {
+	width: 50%;
+	min-width: 400px;
+	padding: 16px 24px;
+	margin-top: 7%;
+	background-color: rgba(0, 0, 0,0.5);
+	border-radius: 8px;
+	text-align: center;
+}
+.four-o-four h1, .four-o-four p {
+	color: aliceblue;
+	margin-bottom: 24px;
+}
+.four-o-four a {
+	padding: 16px 32px;
+	border: 2px solid aliceblue;
+	border-radius: 8px;
+	display: inline-block;
+	text-decoration: none;
+}
+.four-o-four footer {
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.four-o-four a:link, .four-o-four a:visited {
+	color: aliceblue;
+	background-color: #666;
+}
+.four-o-four a:hover, .four-o-four a:active {
+	color: #666;
+	background-color: aliceblue;
+	transition: all 2s;
+	border-color: #666;
+}
 
 .sub-footer p {
 	color: #fff;
@@ -312,6 +364,7 @@ footer a:hover, a:active {
 .sub-footer a {
     color: #ff6600; 
     text-decoration: underline;
+	
 }
 
 /* -- Code for the Cookie Compliance popover window -- */

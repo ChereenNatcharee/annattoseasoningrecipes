@@ -96,6 +96,16 @@ sequence. */
 	cursor:not-allowed;
 	opacity:0.3
 }
+
+.flexed a {
+    flex-shrink: 0; 
+}
+.flexed img {
+    width: 150px;  
+    height: auto;  
+    display: block; 
+    padding-bottom: 0; 
+}
 .flexed {
 	display: flex;
 	align-items: center;
@@ -277,14 +287,15 @@ footer {
 }
 
 footer ol {
-	font-size: 20px;
-	text-align: center;
-	list-style-type: none;
-	display: flex;
-	flex-direction: column;  /* Added to fix the footer in the mobile view - look to line 345 for the media querie part */
-	align-items: center;
-	justify-content: space-between;
-	padding: 0;
+    font-size: 20px;
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    /* Removed flex-direction: column from here */
+    align-items: center;
+    justify-content: center; /* Changed to center for better row spacing */
+    gap: 30px;               /* Adds nice spacing between items in a row */
+    padding: 0;
 }
 
 footer ol li {

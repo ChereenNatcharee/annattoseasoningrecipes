@@ -68,9 +68,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <body>
 	<!-- Navigation Sidebar (hidden by default) -->
 	<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-animate-left" id="mySidebar">
-  		<a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">Close Menu</a>
-  		<a class='w3-bar-item w3-button' href='index.html' onclick='w3_close()'>Home</a>
-  		<a class='w3-bar-item w3-button' href='recipes.html' onclick='w3_close()'>Recipes</a>
+  	    <button onclick="w3_close()" class="w3-bar-item w3-button">Close Menu</button>
+    
+        <a class="w3-bar-item w3-button" href="index.html">Home</a>
+        <a class="w3-bar-item w3-button" href="recipes.html">Recipes</a>
   		<!-- <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Nav Item Three</a> -->
 	</nav>
 
@@ -165,7 +166,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<aside>
 			<h3>Why I do What I do </h3>
 			<div class="flexed">
-				<img src="img/annatto-seasoning-recipes-fork.avif" target="_blank" alt="A light-colored wooden fork on a wooden table used for serving these healthy and delicious annatto seasoning recipes">
+				<a href="img/annatto-seasoning-recipes-fork.avif" target="_blank">
+                    <img src="img/annatto-seasoning-recipes-fork.avif" alt="A light-colored wooden fork on a wooden table used for serving these healthy and delicious annatto seasoning recipes">
+                </a>
 				<p>Hello, my name is Chereen. I have been designing and developing web pages at NAIT in Edmonton, Alberta, for ten years. Annatto spice is special to me since I do not like using artificial food colorings because my parents always told me to use natural things instead. Now that I live alone in my Edmonton home, I use annatto seeds every Saturday night when I cook for the week. I learned how to mix them with warm oil from a head chef I used to work for in a local restaurant. It creates a beautiful orange color and a nice peppery taste that is much better than store colors. I really think the best way to keep the family-style cooking tradition alive is to use real annatto recipes in every dish and every meal.</p>
 			</div>
 		</aside>
